@@ -1,0 +1,47 @@
+settings =
+{
+	orientation =
+	{
+		default = "landscapeRight",
+		supported =
+		{
+			"landscapeRight",
+			"landscapeLeft",
+		},
+	},
+	iphone =
+	{
+		plist =
+		{
+		    UIAppFonts =
+            {
+                        "TequillaSunrise.ttf"
+            },
+
+			CoronaUseIOS6LandscapeOnlyWorkaround = true,
+		},
+	},
+	content =
+    {
+        width = 320,
+        height = 480,
+        scale = "letterbox",
+
+        imageSuffix =
+        {
+            ["_medium"] = 1,
+            ["-x15"] = 1.5,
+            ["_large"] = 2,
+        },
+    },
+    android =
+    {
+        usesPermissions =
+        {
+          "android.permission.INTERNET",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.ACCESS_NETWORK_STATE",
+        },
+    }
+}
