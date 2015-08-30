@@ -1,0 +1,1144 @@
+{
+    "levels": {
+        "11": {
+            "label":"level 11",
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ], 
+            "rocks": [
+                {
+                    "regular": 6, 
+                    "green": 1, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ]
+        }, 
+        "10": {
+            "label":"level 10",
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ], 
+            "rocks": [
+                {
+                    "regular": 5, 
+                    "green": 3, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ]
+        }, 
+        "13": {
+            "label":"level 13",
+            "rocks": [
+                {
+                    "regular": 4, 
+                    "green": 0, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "12": {
+            "label":"level 12",
+            "rocks": [
+                {
+                    "regular": 6, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "15": {
+            "label":"level 15",
+            "rocks": [
+                {
+                    "regular": 6, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 0, 
+                    "green": 0, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "14": {
+            "label":"level 14",
+            "rocks": [
+                {
+                    "regular": 6, 
+                    "green": 1, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 0, 
+                    "green": 0, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "17": {
+            "label":"level 17",
+            "rocks": [
+                {
+                    "regular": 1, 
+                    "green": 2, 
+                    "with_health": 5, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "16": {
+            "label":"level 16",
+            "rocks": [
+                {
+                    "regular": 2, 
+                    "green": 1, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "19": {
+            "label":"level 19",
+            "rocks": [
+                {
+                    "regular": 5, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 0, 
+                    "green": 0, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 0, 
+                    "green": 0, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "18": {
+            "label":"level 18",
+            "rocks": [
+                {
+                    "regular": 4, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 4, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "1": {
+            "label":"level 1",
+            "rocks": [
+                {
+                    "regular": 5, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "3": {
+            "label":"level 3",
+            "rocks": [
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "2": {
+            "label":"level 2",
+            "rocks": [
+                {
+                    "regular": 5, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "5": {
+            "label":"level 5",
+            "rocks": [
+                {
+                    "regular": 5, 
+                    "green": 1, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 0, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "4": {
+            "label":"level 4",
+            "rocks": [
+                {
+                    "regular": 5, 
+                    "green": 1, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 0, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "7": {
+            "label":"level 7",
+            "rocks": [
+                {
+                    "regular": 0, 
+                    "green": 2, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "6": {
+            "label":"level 6",
+            "rocks": [
+                {
+                    "regular": 1, 
+                    "green": 1, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "9": {
+            "label":"level 9",
+            "rocks": [
+                {
+                    "regular": 5, 
+                    "green": 1, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 0, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 0, 
+                    "green": 0, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "20": {
+            "label":"level 20",
+            "rocks": [
+                {
+                    "regular": 6, 
+                    "green": 4, 
+                    "with_health": 0, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 0, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 0, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }, 
+        "8": {
+            "label":"level 8",
+            "rocks": [
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 0, 
+                    "with_health": 1, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 3, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 1, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "21": {
+            "label":"level 21",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 2, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 2, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "22": {
+            "label":"level 22",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 1, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 2, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 2, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "23": {
+            "label":"level 23",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 4, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 1, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 3, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "24": {
+            "label":"level 24",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 4, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 1, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 3, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "25": {
+            "label":"level 25",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 4, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 1, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 3, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "26": {
+            "label":"level 26",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 4, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 1, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 3, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "27": {
+            "label":"level 27",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 4, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 1, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 3, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "28": {
+            "label":"level 28",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 4, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 1, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 3, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "29": {
+            "label":"level 29",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 4, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 1, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 3, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        },
+        "30": {
+            "label":"level 30",
+            "rocks": [
+                {
+                    "regular": 7, 
+                    "green": 4, 
+                    "with_health": 4, 
+                    "type": "rock", 
+                    "size": "large"
+                }, 
+                {
+                    "regular": 3, 
+                    "green": 3, 
+                    "with_health": 3, 
+                    "type": "rock", 
+                    "size": "medium"
+                }, 
+                {
+                    "regular": 2, 
+                    "green": 2, 
+                    "with_health": 2, 
+                    "type": "rock", 
+                    "size": "small"
+                }
+            ], 
+            "enemies": [
+                {
+                    "count": 1, 
+                    "points": 1000, 
+                    "type": "enemy1"
+                }, 
+                {
+                    "count": 3, 
+                    "points": 1500, 
+                    "type": "enemy2"
+                }
+            ]
+        }
+    }
+}
