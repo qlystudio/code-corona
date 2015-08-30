@@ -1,0 +1,6 @@
+PLANET_X = 160
+PLANET_Y = 480
+PLANET_RADIUS = 80
+SHIP_DIST = 400
+SPR_SHIP = 'player'
+IMG_LIFE = 'player_life'
