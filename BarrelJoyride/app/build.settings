@@ -1,0 +1,23 @@
+settings = 
+{
+	orientation = 
+	{
+		default = "landscapeRight",
+		supported = 
+		{ 
+			"landscapeLeft", "landscapeRight" 
+		}
+	},
+	
+	iphone = 
+	{
+		plist = 
+		{
+			UIAppFonts = 
+			{
+				"Deutsch.ttf"
+			}
+		},
+	},
+	
+}
