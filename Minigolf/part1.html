@@ -1,0 +1,267 @@
+Technology: Corona SDK
+Difficulty: Intermediate
+Completion Time: 1 Hour
+
+<h2>Create a Mini Golf Game - Interface Creation</h2>
+
+<p>In this tutorial series, I'll be showing you how to create a physics based Mini Golf game in Corona SDK. You'll learn more about physics manipulation, touch controls and collision detection. Read on!</p>
+<!--more-->
+<h2><span>1.</span> Application Overview</h2>
+<figure class="tutorial_image">
+<img src="1.png" alt="App Overview" />
+</figure>
+<p>Using pre made graphics we will code  an entertaining game using Lua and the Corona SDK API's.</p>
+<p>The player will be able to use the touch screen on the device to shoot the ball across the stage, you can modify the parameters in the code to customize the game.</p>
+<h2><span>2.</span> Target Device</h2>
+<figure class="tutorial_image">
+<img src="2.png" alt="Target Device" />
+</figure>
+
+<p>The first thing we have to do is select the platform we want to run our app within, this way we'll be able to choose the size for the images we will use.</p>
+<p>The iOS platform has these characteristics:</p>
+<ul>
+  <li><strong>iPad 1/2/Mini:</strong> 1024x768px, 132 ppi</li>
+  <li><strong>iPad Retina:</strong> 2048x1536, 264 ppi</li>
+  <li><strong>iPhone/iPod Touch:</strong> 320x480px, 163 ppi</li>
+  <li><strong>iPhone/iPod Retina:</strong> 960x640px, 326 ppi</li>
+  <li><strong>iPhone 5/iPod Touch:</strong> 1136x640, 326 ppi</li>
+</ul>
+<p>Because Android is an open platform, there are many different devices and resolutions. A few of the more common screen characteristics are:</p>
+<ul>
+  <li><strong>Asus Nexus 7 Tablet:</strong> 800x1280px, 216 ppi</li>
+  <li><strong>Motorola Droid X:</strong> 854x480px, 228 ppi</li>
+  <li><strong>Samsung Galaxy SIII:</strong> 720x1280px, 306 ppi</li>
+</ul>
+<p>In this tutorial we'll be focusing on the iOS platform with the graphic design, specifically developing for distribution to an iPhone/iPod touch, but the code presented here should apply to Android development with the Corona SDK as well.</p>
+<hr/>
+<h2><span>3.</span> Interface</h2>
+<figure class="tutorial_image">
+<img src="3.png" alt="Interface" />
+</figure>
+<p>A simple and friendly interface will be used, this involves multiple shapes, buttons, bitmaps and more.</p>
+<p>The interface graphic resources necessary for this tutorial can be found in the attached download.</p>
+<hr/>
+<h2><span>4.</span> Export Graphics</h2>
+<figure class="tutorial_image">
+<img src="4.png" alt="Export Graphics" />
+</figure>
+<p>Depending on the device you have selected, you may need to export the graphics in the recommended ppi, you can do that in your favorite image editor.</p>
+<p>I used the <em>Adjust Size...</em> function in the Preview app on Mac OS X.</p>
+<p>Remember to give the images a descriptive name and save them in your project folder.</p>
+<hr/>
+<h2><span>5.</span> App Configuration</h2>
+<p>An external file will be used to make the application go fullscreen across devices, the <em>config.lua</em> file. This file shows the original screen size and the method used to scale that content in case the app is run in a different screen resolution.</p>
+[sourcecode[
+application =
+{
+    content =
+    {
+        width = 320,
+        height = 480,
+        scale = "letterbox"
+    },
+}
+[/sourcecode]
+<hr/>
+<h2><span>6.</span> Main.lua</h2>
+<p>Let's write the application!</p>
+<p>Open your prefered Lua editor (any Text Editor will work, but you won't have syntax highlighting) and prepare to write your awesome app. Remember to save the file as <em>main.lua</em> in your project folder.</p>
+<hr/>
+<h2><span>7.</span> Code Structure</h2>
+<p>We'll structure our code as if it were a Class. If you know ActionScript or Java, you should find the structure familiar.</p>
+[sourcecode]
+Necesary Classes
+
+Variables and Constants
+
+Declare Functions
+
+    contructor (Main function)
+	
+    class methods (other functions)
+
+call Main function	
+[/sourcecode]
+
+<hr/>
+<h2><span>8.</span> Hide Status Bar</h2>
+
+[sourcecode]
+display.setStatusBar(display.HiddenStatusBar)
+[/sourcecode]
+
+<p>This code hides the status bar. The status bar is the bar on top of the device screen that shows the time, signal, and other indicators.</p>
+<hr/>
+<h2><span>9.</span> Import Physics</h2>
+<p>We'll use the Physics library to handle collisions. Use this code to import it:</p>
+
+[sourcecode]
+-- Physics
+
+local physics = require('physics')
+physics.start()
+[/sourcecode]
+
+<hr/>
+<h2><span>10.</span> Background</h2>
+<figure class="tutorial_image">
+<img src="5.png" alt="Background" />
+</figure>
+<p>A simple graphic is used as the background for the application interface, the next line of code stores it.</p>
+[sourcecode]
+-- Graphics
+
+-- [Background]
+
+local bg = display.newImage('bg.png')
+[/sourcecode]
+<hr/>
+<h2><span>11.</span> Title View</h2>
+<figure class="tutorial_image">
+<img src="6.png" alt="Title View" />
+</figure>
+<p>This is the Title View, it will be the first interactive screen to appear in our game, these variables store its components.</p>
+[sourcecode]
+-- [Title View]
+
+local title
+local playBtn
+local creditsBtn
+local titleView
+[/sourcecode]
+<hr/>
+<h2><span>12.</span> Credits View</h2>
+<figure class="tutorial_image">
+<img src="7.png" alt="Credits View" />
+</figure>
+<p>This view will show the credits and copyright of the game, this variable will be used to store it.</p>
+[sourcecode]
+-- [CreditsView]
+
+local creditsView
+[/sourcecode]
+
+<hr/>
+<h2><span>13.</span> Game Background</h2>
+<figure class="tutorial_image">
+<img src="8.png" alt="Game Background" />
+</figure>
+<p>The level background, it also adds the information textfields.</p>
+[sourcecode]
+-- Game Background
+
+local gameBg
+[/sourcecode]
+<hr/>
+<h2><span>14.</span> Instructions Message</h2>
+<figure class="tutorial_image">
+<img src="9.png" alt="Instructions" />
+</figure>
+<p>An instructions message will appear at the start of the game, it will be tweened out after 2 seconds.</p>
+[sourcecode]
+-- Instructions
+
+local ins
+[/sourcecode]
+<hr/>
+<h2><span>15.</span> Ball</h2>
+<figure class="tutorial_image">
+<img src="10.png" alt="Ball" />
+</figure>
+<p>The ball graphic. The objective of the game is to put this item in the level hole.</p>
+[sourcecode]
+-- Ball
+
+local ball
+[/sourcecode]
+<hr/>
+<h2><span>16.</span> Hole</h2>
+<figure class="tutorial_image">
+<img src="11.png" alt="Hole" />
+</figure>
+<p>Stores the hole physics for collision detection.</p>
+[sourcecode]
+-- Hole
+
+local hole
+[/sourcecode]
+<hr/>
+<h2><span>17.</span> Alert</h2>
+<figure class="tutorial_image">
+<img src="12.png" alt="Alert" />
+</figure>
+<p>This is the alert that will be displayed when you win the game. It will complete the level and end the game.</p>
+[sourcecode]
+-- Alert
+  
+local alertView
+[/sourcecode]
+<hr/>
+<h2><span>18.</span> Sounds</h2>
+<figure class="tutorial_image">
+<img src="13.png" alt="Sounds" />
+</figure>
+<p>We'll use Sound Effects to enhance the feeling of the game, you can find the sound used in this example in <a href="http://soungle.com/">Soungle.com</a> using the keyword<em> golf</em>.</p>
+[sourcecode]
+-- Sounds
+
+local ballHit = audio.loadSound('ball_hit.mp3')
+local ballHole = audio.loadSound('ball_hole.mp3')
+[/sourcecode]
+<hr/>
+<h2><span>19.</span> Variables</h2>
+<p>This are the variables we'll use, read the comments in the code to know more about them.</p>
+[sourcecode]
+-- Variables
+
+local w1 -- Walls
+local w2
+local w3
+local w4
+local w5
+local w6
+local guide -- Transparent white line that indicates shooting direction and force
+local scoring -- Stores the scoring alert image
+[/sourcecode]
+
+<hr/>
+<h2><span>20.</span> Declare Functions</h2>
+<p>Declare all functions as <em>local</em> at the start.</p>
+[sourcecode]
+-- Functions
+
+local Main = {}
+local startButtonListeners = {}
+local showCredits = {}
+local hideCredits = {}
+local showGameView = {}
+local gameListeners = {}
+local shoot = {}
+local onCollision = {}
+local alert = {}
+[/sourcecode]
+<hr/>
+<h2><span>21.</span> Constructor</h2>
+<p>Next we'll create the function that will initialize all the game logic:</p>
+[sourcecode]
+function Main()
+	-- code...
+end
+[/sourcecode]
+<hr/>
+<h2><span>22.</span> Add Title View</h2>
+<p>Now we place the TitleView in the stage and call a function that will add the <em>tap</em> listeners to the buttons.</p>
+[sourcecode]
+function Main()
+	titleBg = display.newImage('titleBg.png', 114, 50)
+	playBtn = display.newImage('playBtn.png', 218, 177)
+	creditsBtn = display.newImage('creditsBtn.png', 203, 232)
+	titleView = display.newGroup(titleBg, playBtn, creditsBtn)
+	
+	startButtonListeners('add')
+end
+[/sourcecode]
+<hr/>
+<h2>Next Time...</h2>
+<hr/>
+<p>In this part of the series you've learned the interface and the basic setup of the game. In the next and final part of the series, we'll handle the level creation, collision detection, and the final steps to take prior to release like app testing, creating a start screen, adding an icon and, finally, building the app. Stay tuned for the final part!</p>
