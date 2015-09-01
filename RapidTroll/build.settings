@@ -1,0 +1,37 @@
+settings =
+{
+        orientation =
+        {
+                default = "portrait",
+				supported =
+				{
+					"portrait"
+				}
+        },
+
+        android =
+		{
+			usesPermissions =
+			{
+				"android.permission.INTERNET",
+			},
+		},
+ 
+        iphone =
+        {
+                plist =
+                {
+					UISupportedInterfaceOrientations = {
+						"UIInterfaceOrientationLandscapeLeft",
+						"UIInterfaceOrientationLandscapeRight"
+					},
+					UIApplicationExitsOnSuspend = true,
+					CFBundleIconFile = "Icon.png",
+					CFBundleIconFiles = {
+						"Icon.png" , 
+						"Icon@2x.png" ,  
+					},
+                },
+        },
+ 
+}
