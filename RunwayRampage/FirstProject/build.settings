@@ -1,0 +1,32 @@
+settings = 
+{
+	orientation =
+	{
+		default = "landscape",
+		supported = { "landscape" }
+	},
+	iphone =
+	{
+		plist =
+		{
+			CFBundleIconFile = "lua-icons/Icon.png",
+			CFBundleIconFiles =
+			{
+                "lua-icons/Icon.png", 
+                "lua-icons/Icon@2x.png", 
+                "lua-icons/Icon-60.png",
+                "lua-icons/Icon-60@2x.png",
+                "lua-icons/Icon-72.png", 
+                "lua-icons/Icon-72@2x.png",
+                "lua-icons/Icon-76.png",
+                "lua-icons/Icon-76@2x.png", 
+                "lua-icons/Icon-Small.png", 
+                "lua-icons/Icon-Small@2x.png",
+                "lua-icons/Icon-Small-40.png",
+                "lua-icons/Icon-Small-40@2x.png",
+                "lua-icons/Icon-Small-50.png", 
+                "lua-icons/Icon-Small-50@2x.png",
+			},
+		},
+	},
+}
