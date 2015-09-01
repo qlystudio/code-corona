@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoGenerateCode</key>
+	<false/>
+	<key>CodePathRelative</key>
+	<string>./</string>
+	<key>CustomScreenSize</key>
+	<string>{480, 320}</string>
+	<key>Engine</key>
+	<integer>6</integer>
+	<key>LastLevelLoaded</key>
+	<string>/PersonalFiles/Games/RocketMouse/CoronaSDK/Part4/RocketMouse/Levels/level04.plhs</string>
+	<key>LevelsPathRelative</key>
+	<string>Levels/</string>
+	<key>ProjectName</key>
+	<string>RocketMouse</string>
+	<key>SHScenesPathRelative</key>
+	<string>Images/</string>
+	<key>ScreenSize</key>
+	<integer>1</integer>
+	<key>Tags</key>
+	<array>
+		<string>DEFAULT</string>
+		<string>CAT</string>
+		<string>LASER</string>
+		<string>COIN</string>
+		<string>PLAYER</string>
+		<string>DOG</string>
+		<string>GROUND</string>
+		<string>ROTATING_LASERS</string>
+		<string>BUNNY</string>
+	</array>
+</dict>
+</plist>
