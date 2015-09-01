@@ -1,0 +1,36 @@
+module(..., package.seeall)
+
+function new()
+updateMem()
+local localGroup = display.newGroup()
+
+<<<<<<< HEAD
+local startGame = function(self)
+	_G.level = self.level
+	director:changeScene ("game")
+=======
+local level1Button
+
+local startGame = function(event)
+	_G.level = event.target.level
+	director:changeScene ("loading")
+>>>>>>> 8f1dc0a8d3028dcee30cf7d77c64bf45b28283c2
+end
+
+local myText = display.newText("Select your level!", 100, 0, native.systemFont, 40)
+myText:setTextColor(255, 255, 255)
+localGroup:insert(myText)
+
+level1Button = display.newImage("graphics/level1Button.png")
+level1Button.x = 150
+level1Button.y = display.contentCenterY
+level1Button.level = 1
+<<<<<<< HEAD
+localGroup:insert(level1Button)
+=======
+level1Button:addEventListener("touch", startGame)
+
+>>>>>>> 8f1dc0a8d3028dcee30cf7d77c64bf45b28283c2
+
+return localGroup
+end

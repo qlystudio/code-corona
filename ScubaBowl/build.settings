@@ -1,0 +1,44 @@
+-- Supported values for orientation:
+-- portrait, portraitUpsideDown, landscapeLeft, landscapeRight
+
+settings = {
+	
+	orientation = {
+		default = "landscapeRight",
+		supported = { "landscapeRight", "landscapeLeft" }
+	},
+	
+	iphone = {
+		plist = {
+			UIStatusBarHidden = true,
+			UIPrerenderedIcon = true, -- set to false for "shine" overlay
+			--UIApplicationExitsOnSuspend = false, -- uncomment to quit app on suspend
+			
+			UIAppFonts = 
+            {
+                    "wasser.ttf"
+            },
+            --[[
+            -- iOS app URL schemes:
+            CFBundleURLTypes =
+            {
+                {
+                    CFBundleURLSchemes =
+                    {
+                        "ScubaBowl"
+                    }
+                }
+            }
+            --]]
+		}
+	},
+	
+	--[[
+	-- Android permissions
+
+	androidPermissions = {
+  		"android.permission.INTERNET",
+  	},
+
+	]]--
+}
