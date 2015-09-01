@@ -1,0 +1,48 @@
+{
+  "sets": [
+    {
+      "name": "First set",
+      "number": 1,
+      "levels": [
+        {
+          "name": "Who first?",
+          "path": "000",
+          "number": 1,
+          "velocity": 60,
+          "bullets": [0, 1, 2],
+          "wind": ["-5","-4","-3","-2","-1","0","1","2","3","4","5"],
+          "aiVariant": "oneDirection",
+          "castle1": {
+            "image": "castle001.png",
+            "x": 12,
+            "y": 248
+          },
+          "castle2": {
+            "image": "castle002.png",
+            "x": 201,
+            "y": 249
+          }
+        },
+        {
+          "name": "Windy weather",
+          "path": "002",
+          "number": 2,
+          "velocity": 60,
+          "bullets": [0, 2],
+          "wind": ["*","*","*","-2","-1","0","1","2","*","*","*"],
+          "aiVariant": "oneDirection",
+          "castle1": {
+            "image": "castle003.png",
+            "x": 12,
+            "y": 53
+          },
+          "castle2": {
+            "image": "castle004.png",
+            "x": 128,
+            "y": 53
+          }
+        }
+      ]
+    }
+  ]
+}
