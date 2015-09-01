@@ -1,0 +1,7 @@
+Name: Run Rabbit Run
+Author: Andrew Buldakovsky http://aabweber.com, aabweber@gmail.com
+Date: 2011/11/18
+
+Project is absolutely free! I hope it will be useful for you as template for your first Corona SDK project.
+
+You can donate any sum. Your donation lets me work on future open source Corona SDK project (aabweber@gmail.com).
