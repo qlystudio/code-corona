@@ -1,0 +1,29 @@
+settings =
+{
+        orientation =
+        {
+                default = "portrait",
+        },
+ 
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = true,
+                        UIApplicationExitsOnSuspend = false,
+                        CFBundleIconFile = "Icon.png",
+            			CFBundleIconFiles = {
+               				"Icon.png", 
+               				"Icon@2x.png",
+            			},
+						UIAppFonts = {
+							"Harrowprint.ttf",
+							"PRISTINA.ttf"
+						}
+                },
+        },
+        androidPermissions =
+        {
+            "android.permission.VIBRATE"
+        }
+}
