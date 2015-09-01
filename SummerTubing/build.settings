@@ -1,0 +1,20 @@
+
+
+settings = {
+  orientation = {
+    default = "landscapeRight",
+    supported = { "landscapeLeft", "landscapeRight" }
+  },
+  android =
+   {
+    versionCode = "VERSION",
+    usesPermissions =
+    {
+
+    },
+    usesFeatures =
+    {
+     { name = "android.hardware.touchscreen", required = true}
+    },
+  },
+}
